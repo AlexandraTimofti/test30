@@ -1,0 +1,7 @@
+language: go
+script:
+- env
+- go version
+- echo $MY_SECRET_ENV
+env:
+  global:
